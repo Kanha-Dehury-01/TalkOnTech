@@ -81,7 +81,7 @@ function PostForm({ post }) {
     }, [watch, slugTransform, setValue]);
 
     return (
-        <form onSubmit={handleSubmit(submit)} className="w-2/3 m-auto dark:text-white font-semibold">
+        <form onSubmit={handleSubmit(submit)} className=" mx-2 dark:text-white font-semibold">
             <h1 className="text-center text-2xl">Add Post</h1>
             <div className="  px-2 ">
                 <Input
