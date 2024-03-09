@@ -28,6 +28,7 @@ function Home() {
     if (posts.length === 0) {
         return (
             <div className="w-full py-8 mt-4 text-center">
+                    <img src="https://i.imgur.com/asLftIN.png" alt="" className="-mt-12"/>
                 <Container>
                     <div className="flex flex-wrap">
                         <div className="p-2 w-full h-80 ">
@@ -42,9 +43,10 @@ function Home() {
     }
     return (
         <div className="w-full py-8">
+            <img src="https://i.imgur.com/MJ2yaOH.jpg" alt="" className="-mt-9"/>
             <Container>
                 <div className="text-center -m-4 mb-6 dark:text-white">
-                    <p className="  text-xl">
+                    <p className=" mt-7 text-xl">
                         Hi, <span className="font-bold text-2xl">{user}</span>
                     </p>
                     <p className="mt-3 text-md">Enjoy reading our blogs. Add your blog and reachout more people.</p>
