@@ -36,7 +36,7 @@ export default function Post() {
         <div className="py-8">
             <Container>
                 <div className="flex justify-center duration-300 content-center ">
-                    <div className="w-3/4">
+                    <div className="w-full m-1">
                         <div className="w-full">
                             <img
                                 src={appwriteService.getFilePreview(
